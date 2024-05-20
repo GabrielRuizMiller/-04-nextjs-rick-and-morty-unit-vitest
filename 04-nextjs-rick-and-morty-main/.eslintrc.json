@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    // Tus otros plugins
+    "testing-library"
+  ],
+  "extends": [
+    // Tus otras configuraciones
+    "next/core-web-vitals",
+    "plugin:testing-library/react"
+  ],
+  "rules": { "react/no-unescaped-entities": 0 }
+}
